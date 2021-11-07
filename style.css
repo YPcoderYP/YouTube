@@ -848,6 +848,9 @@ nav{
     align-items: center;
     margin-bottom: 10px;
 }
+.commentright .reactions span img{
+    width: 20px;
+}
 .commentright .reactions span{
     margin-right: 15px;
     display: flex;
