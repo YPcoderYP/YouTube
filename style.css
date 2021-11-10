@@ -1107,7 +1107,8 @@ nav{
     }
     .rigth-sidebar{
         width: 100%;
-        padding: 3% 3%;
+        padding: 4% 3%;
+        border-top: 1px solid rgba(83, 83, 83, 0.233);
     }
     .videolist{
         flex-direction: column;
@@ -1133,10 +1134,6 @@ nav{
     .videolist .details  .detailsright .to-inline br{
         display: none;
     }
-
-
-    
-
     .videolist .details .channellogo-indetails{
         display: block;
     }
@@ -1144,9 +1141,6 @@ nav{
         width: 30px;
         border-radius: 100%;
     }
-
-
-
 
 }
 
