@@ -108,6 +108,9 @@ nav{
     overflow-y: hidden;
     overflow-x:auto;
 }
+.forleftpaddingT-JS{
+    padding-left: 80px;
+}
 .suggestion .exploreformobile{
     display: none;
 }
@@ -246,8 +249,11 @@ nav{
     padding-right: 2%;
     padding-bottom: 20px;
 }
+.leftpaddingincontainerT-JS{
+    padding-left: 100px;
+}
 .big-container{
-    padding-left: 8%;
+    padding-left: 100px;
 }
 .banner{
     width: 100%;
@@ -950,7 +956,7 @@ nav{
 .view-more{
     height: auto;
     width: 100%;
-    padding: 30px 0;
+    padding: 20px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -966,6 +972,17 @@ nav{
     color: blue;
     font-family: "YouTube Sans", "Roboto", sans-serif;
     font-weight: 700;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+.copyright p{
+    font-size: 10px;
 }
 
 
@@ -1105,9 +1122,10 @@ nav{
         justify-content: space-around;
         width: 40px;
     }
-    .rigth-sidebar{
+    .vid-container .row .rigth-sidebar{
         width: 100%;
-        padding: 3% 3%;
+        padding: 4% 3%;
+        border-top: 1px solid rgba(83, 83, 83, 0.233);
     }
     .videolist{
         flex-direction: column;
@@ -1145,11 +1163,4 @@ nav{
         border-radius: 100%;
     }
 
-
-
-
 }
-
-
-
-

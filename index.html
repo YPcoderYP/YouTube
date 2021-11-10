@@ -102,7 +102,7 @@
 
     <!-- main manu / middle manu  -->
 
-    <div class="container">
+    <div class="container" >
 
         <div class="banner" id="banner">
             <div class="premium">
@@ -265,7 +265,13 @@
             <img src="images/show-more.png" alt="">
             <a>View More</a>
         </div>
+        <div class="copyright">
+            <p>Copy Right © Yash Parsana</p>
+        </div>
     </div>
+
+
+    
     <div class="mobile-footer">
         <div class="footerleft">
             <span>
@@ -294,7 +300,7 @@
             </span>
         </div>
         
-        
+
         
     </div>
 
@@ -303,10 +309,14 @@
         let manu = document.querySelector(".manu");
         let sidebar = document.querySelector(".sidebar");
         let container = document.querySelector(".container");
+        let suggestionbar=document.querySelector(".suggestion");
 
         manu.addEventListener('click', () => {
             sidebar.classList.toggle("small-sidebar");
             container.classList.toggle("big-container");
+            suggestionbar.classList.toggle("forleftpaddingT-JS");
+            // suggestionbar.style.paddingLeft='80px';
+            // mainContainer.style.paddingLeft='100px';
         });
 
         // main manu
